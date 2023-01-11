@@ -1,0 +1,25 @@
+{
+  "name": "challenge_9",
+  "version": "1.0.0",
+  "description": " create a command-line application that dynamically generates a professional README.md file from a user's input using the[Inquirer package",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khanhlinhbui/challenge_7.git"
+  },
+  "keywords": [
+    "github",
+    "repo",
+    "challenge9",
+    "readme"
+  ],
+  "author": "Linh Bui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khanhlinhbui/challenge_7/issues"
+  },
+  "homepage": "https://github.com/khanhlinhbui/challenge_7#readme"
+}
