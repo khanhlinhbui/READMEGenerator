@@ -1,18 +1,34 @@
 const inquirer = require('inquirer');
 const question = [
     {   
-        type: "input",
-        name: "title",
+        type: 'input',
+        name: 'title',
         message: "what is the title of the README file?"
     }
 ]
 inquirer 
     .prompt([
-        "what is the title of the README",
-        "What is the app for",
-        "how to use this app",
-        "how to install it",
+        {
+            type: 'input',
+            message: 'what is the title of the README?',
+            name: 'title'
+        },
+        {
+            type: 'input',
+            message: 'What is the app for?',
+            name: 'purpose'
+        },
+        {
+            type: 'input',
+            message: 'how to use this app?',
+            name: 'instruction'
 
+        },
+        {
+            type: 'input',
+            message: 'how to install it?',
+            name: 'installation'
+        }
     ])
     .then((answer)=>{
         console.log(answer)
@@ -20,5 +36,3 @@ inquirer
     .catch((error)=>{
 
     })
-console.log("hihi")
-console.log(question)
