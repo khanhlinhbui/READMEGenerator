@@ -32,6 +32,10 @@ inquirer
     ])
     .then((answer)=>{
         console.log(answer)
+        console.log(answer.title)
+        console.log(answer.purpose)
+        console.log(answer.instruction)
+        console.log(answer.installation)
     })
     .catch((error)=>{
 
